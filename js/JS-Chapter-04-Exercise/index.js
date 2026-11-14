@@ -16,6 +16,8 @@
 
 // illegal variables
 
+
+h
 // var 12 ;
 // var %sw ;
 // var my name ;
