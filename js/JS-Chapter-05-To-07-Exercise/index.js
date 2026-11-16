@@ -126,24 +126,108 @@
 //  e. Shipping charges 
 
 
-var item1Price = 560;
-var item2Price = 200;
+// var item1Price = 560;
+// var item2Price = 200;
 
-var item1Qt = 2;
-var item1Qt = 5;
+// var item1Qt = 2;
+// var item2Qt = 5;
 
-var dc =150;
-
-
-// document.write(`<p>price of item 1 is ${item1Price} <p/>`);
-// document.write(`<p>price of item 2 is ${item2Price} <p/>`);
-// document.write(`<p>quantity of item 1 is ${item1Qt} <p/>`);
-// document.write(`<p>quantity of item 2 is ${item2Qt} <p/>`);
-// document.write(`<p>DC is ${dc} <p/>`);
-// document.write(`<p>total cost is ${(item1Price * item1Qt  )+ ${()} } <p/>`);
+// var dc = 150;
 
 
+// document.write(`<p>price of item 1 is ${item1Price}</p>`);
+// document.write(`<p>price of item 2 is ${item2Price}</p>`);
+// document.write(`<p>quantity of item 1 is ${item1Qt}</p>`);
+// document.write(`<p>quantity of item 2 is ${item2Qt}</p>`);
+// document.write(`<p>DC is ${dc}</p>`);
+// document.write(`<p>total cost is ${item1Price * item1Qt + item2Price * item2Qt + dc}</p>`);
 
 
 
+// 8. Write a script to take total marks & marks obtained by a student. Compute the percentage 
 
+
+// var obtainedMarks =900;
+// var TotalMarks =1200;
+// var percentage = (900/1200)*100;
+// console.log("🚀 ~ percentage:", percentage,"%");
+
+// 11. The Age Calculator: Forgot how old someone is? Calculate it! 
+// a. Store the current year in a variable.
+//  b. Store their birth year in a variable.
+//   c. Calculate their 2 possible ages based on the stored values.
+//    Output them to the screen like so: “They are either NN or NN years old”. 
+
+
+// var dob =2000;
+// var currentY = 2026;
+
+// var ans = currentY - dob;
+// console.log("🚀 ~ ans:", ans)
+
+// var newans = --ans;
+// console.log("🚀 ~ newans:", newans)
+
+// console.log(`They are either ${ans} or ${newans} years old`)
+
+
+// 12. The Geometrizer: Calculate properties of a circle. 
+// a. Store a radius into a variable. 
+// b. Calculate the circumference based on the radius, 
+// and output “The circumference is NN”.  
+// (Hint : Circumference of a circle = 2 π r ,   π = 3.142) 
+// Calculate the area based on the radius, 
+// and output “The area is NN”. 
+// (Hint : Area of a circle = π r2,  π = 3.142) 
+
+// var radius = 12;
+// var circumference = 2*3.142*12;
+// console.log("🚀 ~ circumference:", circumference)
+
+// var area = 3.142 * 12*12;
+// console.log("🚀 ~ area:", area)
+
+
+// 13. Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser: 
+
+// var num = 11;
+// console.log("🚀 ~ num:", num)
+// ++num;
+// console.log("🚀 ~ num:", num)
+// --num;
+// console.log("🚀 ~ num:", num)
+// --num
+// console.log("🚀 ~ num:", num);
+
+// 14. What will be the output in variables 
+// a, b & result after execution of the following script:
+//  var a = 2, b = 1; var result = --a   -   --b   +   ++b  +   b--;
+//  Explain the output at each stage:
+//  --a; --a   -   --b; --a   -   --b   +   ++b; --a   -   --b   +   ++b  +   b--; 
+// var a = 2;
+// var b = 1;
+//               1    -    0    +   1    +   1
+// var result = --a   -   --b   +   ++b  +   b--; 
+// console.log("🚀 ~ result:", result)
+
+
+// 15. The Lifetime Supply Calculator:
+//  Ever wonder how much a “lifetime supply” of your favorite snack is?
+//   Wonder no more.
+//    a. Store your favorite snack into a variable 
+//    b. Store your current age into a variable. 
+//    c. Store a maximum age into a variable. 
+//    d. Store an estimated amount per day (as a number). 
+//    e. Calculate how many would you eat total for the rest of your life.
+//     Page 10 of 11 MATH EXPRESSIONS |
+//      JAVASCRIPT  Page 11 of 11  Output the result to the screen like so: 
+//      “You will need NNNN to last you until the ripe old age of NN”. 
+
+
+// var snak = "chilimili";
+// var age = 18;
+// var  maxage = 19;
+// var perdaycost = 15;
+
+// var totalEat = 15 * 365 ;
+// console.log("🚀 ~ totalEat:", `You will need ${totalEat} to last you until the ripe old age of ${maxage}`)
