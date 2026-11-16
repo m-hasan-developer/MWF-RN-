@@ -16,3 +16,17 @@
 // console.log("🚀 ~ arrpop:", arrpop)
 
 // console.log("🚀 ~ arr:", arr)
+
+
+var arr = ["hello" ,"pak ","stu",3,4]
+console.log("🚀 ~ arr:", arr)
+// arr.shift()
+// console.log("🚀 ~ arr:", arr)
+
+
+
+// arr.unshift("usa" ,"uk","canada");
+// console.log("🚀 ~ arr.unshift:", arr)
+
+arr.splice(1,0,"hey")
+console.log("🚀 ~ arr.splice:", arr)
